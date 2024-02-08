@@ -1,0 +1,48 @@
+{
+  "name": "onion-core",
+  "version": "0.1.0",
+  "description": "DI infrastructure realization for Onion architecture",
+  "keywords": [
+    "onion",
+    "architecture",
+    "dependency injection",
+    "framework"
+  ],
+  "main": "build/index.js",
+  "bugs": {
+    "url": "https://github.com/Isqanderm/onion/issues"
+  },
+  "homepage": "https://github.com/Isqanderm/onion#readme",
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "clean": "rm -rf build",
+    "prepublishOnly": "npm run clean && npm test && npm run build",
+    "test": "jest"
+  },
+  "author": "Isqanderm <aleksandr.melnik.personal@gmail.com> (https://www.linkedin.com/in/isqander-melnik)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-typescript": "^7.23.3",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "inversify": "^6.0.2",
+    "reflect-metadata": "^0.2.1"
+  },
+  "peerDependencies": {
+    "inversify": "^6.0.2",
+    "reflect-metadata": "^0.2.1"
+  }
+}
