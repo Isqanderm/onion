@@ -15,6 +15,7 @@
   "homepage": "https://github.com/Isqanderm/onion#readme",
   "files": [
     "build",
+    "src",
     "README.md",
     "LICENSE"
   ],

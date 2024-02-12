@@ -1,5 +1,6 @@
 {
-  "compilerOptions": {"target": "es5",
+  "compilerOptions": {
+    "target": "es5",
     "lib": ["es6", "dom"],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
@@ -9,6 +10,7 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
+    "sourceRoot": "",
     "outDir": "build",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
